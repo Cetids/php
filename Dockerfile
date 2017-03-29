@@ -32,5 +32,5 @@ RUN { \
 	} > /usr/local/etc/php/conf.d/opcache-recommended.ini
 
 
-COPY ./php7.0-fpm/php.ini /usr/local/etc/php/php.ini
-COPY ./php7.0-fpm/www.conf /usr/local/etc/php-fpm.d/www.conf
+COPY ./php7.0/fpm/php.ini /usr/local/etc/php/php.ini
+COPY ./php7.0/fpm/www.conf /usr/local/etc/php-fpm.d/www.conf
